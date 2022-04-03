@@ -17,6 +17,54 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  min-width: 600px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 2rem;
+}
+
+nav li {
+  display: inline-block;
+  border: 2px solid #0085a3;
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#9d9d9d), to(#303030));
+  background-image: linear-gradient(to right, #9d9d9d, #303030);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav li:hover {
+  display: inline-block;
+  border: 2px solid #9cd0dc;
+  -webkit-box-shadow: 2px 2px 15px white;
+          box-shadow: 2px 2px 15px white;
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#9d9d9d), to(#303030));
+  background-image: linear-gradient(to left, #9d9d9d, #303030);
+  opacity: 1;
+}
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #fff5f5;
+  text-shadow: 2px 2px 5px black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav a:hover {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #016677;
+  text-shadow: 2px 2px 5px black;
+  opacity: 1;
 }
 
 nav {
@@ -96,52 +144,5 @@ img {
   -ms-flex-line-pack: center;
       align-content: center;
   gap: 2rem;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  padding: 2rem;
-}
-
-nav li {
-  display: inline-block;
-  border: 2px solid #0085a3;
-  border-radius: 5px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#9d9d9d), to(#303030));
-  background-image: linear-gradient(to right, #9d9d9d, #303030);
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-nav li:hover {
-  display: inline-block;
-  border: 2px solid #9cd0dc;
-  -webkit-box-shadow: 2px 2px 15px white;
-          box-shadow: 2px 2px 15px white;
-  border-radius: 5px;
-  background-image: -webkit-gradient(linear, right top, left top, from(#9d9d9d), to(#303030));
-  background-image: linear-gradient(to left, #9d9d9d, #303030);
-  opacity: 1;
-}
-
-nav a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none;
-  color: #fff5f5;
-  text-shadow: 2px 2px 5px black;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-nav a:hover {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none;
-  color: #016677;
-  text-shadow: 2px 2px 5px black;
-  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */

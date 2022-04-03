@@ -9,6 +9,55 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width:600px ;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 2rem;
+  }
+  li {
+    display: inline-block;
+    border: 2px solid rgb(0, 133, 163);
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to right,
+      rgb(157, 157, 157),
+      rgb(48, 48, 48)
+    );
+    transition: 0.5s;
+  }
+  li:hover {
+    display: inline-block;
+    border: 2px solid rgb(156, 208, 220);
+    box-shadow: 2px 2px 15px white;
+    border-radius: 5px;
+    background-image: linear-gradient(
+      to left,
+      rgb(157, 157, 157),
+      rgb(48, 48, 48)
+    );
+    opacity: 1;
+  }
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: rgb(255, 245, 245);
+    text-shadow: 2px 2px 5px black;
+    transition: 0.5s;
+  }
+  a:hover {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: rgb(1, 102, 119);
+    text-shadow: 2px 2px 5px black;
+    opacity: 1;
+  }
 }
 
 nav {
@@ -77,50 +126,6 @@ img {
   align-content: center;
   gap: 2rem;
 }
-nav {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    padding: 2rem;
-  }
-  li {
-    display: inline-block;
-    border: 2px solid rgb(0, 133, 163);
-    border-radius: 5px;
-    background-image: linear-gradient(
-      to right,
-      rgb(157, 157, 157),
-      rgb(48, 48, 48)
-    );
-    transition: 0.5s;
-  }
-  li:hover {
-    display: inline-block;
-    border: 2px solid rgb(156, 208, 220);
-    box-shadow: 2px 2px 15px white;
-    border-radius: 5px;
-    background-image: linear-gradient(
-      to left,
-      rgb(157, 157, 157),
-      rgb(48, 48, 48)
-    );
-    opacity: 1;
-  }
-  a {
-    display: block;
-    padding: 6px 12px;
-    text-decoration: none;
-    color: rgb(255, 245, 245);
-    text-shadow: 2px 2px 5px black;
-    transition: 0.5s;
-  }
-  a:hover {
-    display: block;
-    padding: 6px 12px;
-    text-decoration: none;
-    color: rgb(1, 102, 119);
-    text-shadow: 2px 2px 5px black;
-    opacity: 1;
-  }
-}
+
+
+
